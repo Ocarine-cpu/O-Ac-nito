@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   <div class="login-container">
   <h2 style="text-align:center; color:#ffd700;">Entrar no Acônito</h2>
   <?php if (!empty($erro)): ?><p class="erro"><?= htmlspecialchars($erro) ?></p><?php endif; ?>
-
+    <br>
   <form method="POST">
     <input type="text" name="login" placeholder="Login" required>
 
